@@ -1,0 +1,23 @@
+.dashboard-option{
+  padding: 0 12px 0;
+}
+.dashboard-option a{
+  color: white;
+}
+.dashboard-option a:hover {
+  color: rgb(62, 226, 204);
+  cursor: pointer;
+}
+.dashboard-option a:focus {
+  color: rgb(62, 226, 204);
+}
+.dashboard-logout{
+  padding: 0 12px 0;
+}
+.dashboard-logout a{
+  color: white;
+}
+.dashboard-logout a:hover {
+  color: orangered;
+  cursor: pointer;
+}

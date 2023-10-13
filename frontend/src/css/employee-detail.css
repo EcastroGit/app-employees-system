@@ -1,0 +1,22 @@
+#profile-header {
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.header-box {
+    width: 50%;
+}
+.empImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 10px auto 5px;
+}
+#profile-content {
+    width: 100%;
+}
