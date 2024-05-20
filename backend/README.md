@@ -2,9 +2,7 @@
 
 ## Database specifications 
 
-For this proyect to work in development, you need to have MySQL installed with a connection instance running on your local machine.
-Its neccesary to create a database called **employee_system** with the following tables, although you can customize the project
-according to needs. 
+To ensure the functionality of this project, it is essential to have MySQL installed on your local machine, with a connection instance up and running. Additionally, it is necessary to create a database named __employee_system__ containing the specified tables. However, customization of the project can be implemented according to specific requirements.
 
 ### tables:
 

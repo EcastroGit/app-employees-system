@@ -1,6 +1,6 @@
 # Employee Management System
 
-Full stack web app for managing employees consisting of a dashboard with functions to create, read, update and delete information. The app has an authentication system to handle employees and admins login. This template poject has basic functions and components a management system has, but it can be improved according to needs.
+Developed as a full-stack web application, this platform facilitates employee management through a user-friendly dashboard equipped with essential functions such as creating, viewing, updating, and deleting information. The application boasts a robust authentication system, ensuring secure access for both employees and administrators. While this template project includes fundamental features and components typical of a management system, it remains customizable and adaptable to meet specific requirements.
 
 ## Main technologies
 
@@ -21,10 +21,6 @@ Full stack web app for managing employees consisting of a dashboard with functio
 ## Demo
 
 ![app demo](./screenshots/demo.gif)
-
-### Employee profile sample
-
-![employee profile sample](./screenshots/profile.png)
 
 
 

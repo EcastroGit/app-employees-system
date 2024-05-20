@@ -2,5 +2,4 @@
 
 ## General information
 
-Frontend was developed with React.js and Bootstrap, it has the basic components this template project needs to work, but the project can be customized according to needs.
-The user interface it's not responsive, since it was thought to be used on desktop computer, but responsivness can also be implemented according to needs.
+The frontend was crafted using React.js and Bootstrap, incorporating essential components required for the functionality of this template project. However, customization is possible to align with specific requirements. While the current user interface prioritizes desktop usage and lacks responsiveness, adjustments can be made to accommodate various devices, tailored to individual needs.
