@@ -32,8 +32,9 @@ function EmployeeTasks() {
             </div>
             <div className="card-body">
               <p className="card-text text-start">{task.detail}</p>
+              <p><span className="fw-bold">Deadline</span> {task.deadline}</p>
               <button type="button" className="btn btn-success btn-sm mx-1 my-1">
-                Completed
+                Check
               </button>
               <button type="button" className="btn btn-secondary btn-sm mx-1 my-1">
                 Options

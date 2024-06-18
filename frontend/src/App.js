@@ -11,14 +11,12 @@ import ManageEmployees from "./components/admin_dashboard/ManageEmployees";
 import Analytics from "./components/admin_dashboard/Analytics";
 import AddEmployee from "./components/admin_dashboard/AddEmployee";
 import AssignmentPanel from "./components/admin_dashboard/AssignmentPanel";
-import AssignTask from "./components/admin_dashboard/AssignTask"
+import AssignTask from "./components/admin_dashboard/AssignTask";
 import ScheduleMeeting from "./components/admin_dashboard/ScheduleMeeting";
 import EditEmployee from "./components/admin_dashboard/EditEmployee";
 import EmployeesLogin from "./components/login/EmployeesLogin";
 import EmployeeDetail from "./components/employee_profile/EmployeeDetail";
 import EmployeeTasks from "./components/employee_profile/EmployeeTasks";
-
-
 
 function App() {
   return (
@@ -30,7 +28,7 @@ function App() {
           <Route path="/analytics" element={<Analytics />}></Route>
           <Route path="/create" element={<AddEmployee />}></Route>
           <Route path="/assign/:id" element={<AssignmentPanel />}>
-            <Route path ="tasks" element={<AssignTask />}></Route>
+            <Route path="tasks" element={<AssignTask />}></Route>
             <Route path="meetings" element={<ScheduleMeeting />}></Route>
           </Route>
           <Route path="/employeeEdit/:id" element={<EditEmployee />}></Route>

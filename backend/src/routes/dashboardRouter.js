@@ -21,6 +21,7 @@ const dashboardRouter = express.Router();
 // Middlewares
 import verifyAuth from "../middlewares/verifyAuth.js";
 
+
 // Routes
 dashboardRouter.get("/", verifyAuth, (req, res) => {
     return res.json({ Status: "Success", role: req.role, id: req.id });

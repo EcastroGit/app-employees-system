@@ -9,7 +9,7 @@ function EmployeeDetail() {
   const [employee, setEmployee] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:4000/dashboard/get-employee-by-id/" + id)
+      .get("http://localhost:4000/employees-profile/get-employee-info/" + id)
       .then((res) => setEmployee(res.data.employee[0]))
       .catch((err) => console.log(err));
   }, []);
@@ -25,7 +25,7 @@ function EmployeeDetail() {
     <div>
       <header id="profile-header" className="text-center shadow d-flex">
         <div className="header-box d-flex align-items-center">
-          <p className="fw-bold m-auto">¡Welcome!</p>
+          <p className="m-auto">¡Welcome <span className="fw-bold">{employee.name}</span>!</p>
         </div>
         <div className="header-box d-flex align-items-center justify-content-center">
           <span className="mx-2">Option 1</span>
